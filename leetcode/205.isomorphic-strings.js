@@ -9,7 +9,7 @@ var isIsomorphic = function (s, t) {
     let new_map = new Map();
     while (i < t.length) {
       if (!new_map.has(str1[i])) {
-        // If our map do not have a CharacterData, then add it to the map
+        // If our map do not have a Character, then add it to the map
         new_map.set(str1[i], str2[i]);
       } else {
         // Check if the current character is equal to the character mapped previously
